@@ -1,16 +1,7 @@
 import 'package:flutter/material.dart';
 
-void main() {
-  runApp(new MaterialApp(home: AllCountries()));
-}
+import 'Screen/AllCountries.dart';
 
-class AllCountries extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text("All Countries"),
-      ),
-    );
-  }
+void main() {
+  runApp(new MaterialApp(home: new AllCountries()));
 }

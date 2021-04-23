@@ -26,6 +26,7 @@ dependencies:
   dio: ^3.0.10
   flip_card: ^0.4.4
   flutter_svg: ^0.19.1
+  google_maps_flutter: ^1.1.1
 
 
 
